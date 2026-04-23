@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Data files (too large for Git)
+*.wav
+*.mp3
+*.flac
+*.csv
+*.xlsx
+
+# Model checkpoints (too large for Git)
+*.pt
+*.pth
+*.bin
+*.onnx
+whisper-children-finetuned/
+checkpoints/
+
+# Results and outputs
+results/
+outputs/
+*.png
+
+# TensorBoard logs
+runs/
+logs/
+*.log
+
+# Hugging Face cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
